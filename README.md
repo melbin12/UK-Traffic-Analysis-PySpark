@@ -27,3 +27,55 @@ The dataset includes yearly traffic counts across UK regions, road types, and ve
 ---
 
 ## 📁 Project Structure
+
+
+
+---
+
+## 🔹 Task 1: Data Preparation
+- Dropping irrelevant columns
+- Renaming columns for Spark compatibility
+- Handling missing values using mean imputation
+- Outlier removal using IQR method
+- Feature scaling using MinMaxScaler
+
+**File:** `task1_data_preparation.py`
+
+---
+
+## 🔹 Task 2: Exploratory Data Analysis (EDA)
+- Total traffic volume by year
+- Region-wise traffic distribution
+- Vehicle type statistics
+- Road type traffic comparison
+
+**File:** `task2_exploratory_data_analysis.py`
+
+---
+
+## 🔹 Task 3: Unsupervised Learning (Clustering)
+- Feature vectorization and scaling
+- K-Means clustering
+- Cluster evaluation using Silhouette Score
+- Traffic pattern segmentation
+
+**File:** `task3_clustering_kmeans.py`
+
+---
+
+## 🔹 Task 4: Supervised Learning
+- Pseudo-label generation using K-Means
+- Train-test split
+- Decision Tree classification
+- Model evaluation using accuracy metric
+
+**File:** `task4_supervised_learning.py`
+
+---
+
+## ▶️ How to Run
+Ensure Spark is installed and run any task using:
+
+```bash
+spark-submit src/taskX_filename.py
+
